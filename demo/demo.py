@@ -49,6 +49,7 @@ for fk in address.foreign_keys:
 
 mapper(Address, address, properties=p)
 
+import pdb;pdb.set_trace()
 Session = sessionmaker(bind=engine)
 session = Session()
 

@@ -1,6 +1,6 @@
+
+import sys
+sys.path.insert(0, "../..")
+
 import vuuvv.tasks
 
-@task()
-def runserver(t):
-	m = __import__("app")
-	m.run()
